@@ -7,7 +7,9 @@
   top: 50%;
   transform: translateY(-50%);
 }
-
+.my-view{
+  --background: url('src/assets/Background/homebackground.jfif');
+}
 #container strong {
   font-size: 20px;
   line-height: 26px;
@@ -28,4 +30,29 @@
 
 ion-content ion-toolbar {
   --background: translucent;
+}
+.fresh{
+  color: #eae5e3;
+    font-size: 51px;
+    font-family: cursive;
+    margin-top: -22px;
+    padding: 110px;
+}
+.fresh-sub{
+  color: #8ef3ee;
+    padding-left: 53px;
+    margin-top: -94px;
+    font-family: monospace;
+    font-size: 37px;
+}
+.msg-register{
+  color:white;
+}
+.register{
+  color:#fff700;
+  padding: 20px;
+}
+.abc{
+  margin-top: 43px;
+    padding: 48px;
 }
