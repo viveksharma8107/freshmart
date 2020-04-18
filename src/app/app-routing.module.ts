@@ -5,9 +5,13 @@ const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)},
   {
-    path: 'add-cart',
-    loadChildren: () => import('./add-cart/add-cart.module').then( m => m.AddCartPageModule)
+
+
+    path: 'login',
+    loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
   },
+
+
 ];
 
 @NgModule({

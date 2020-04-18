@@ -1,0 +1,47 @@
+
+ion-title,ion-item,ion-button,.newaccount{
+    font-family: 'Open Sans' !important;
+}
+ion-item{
+    --background: #fff;
+    --color: #000000;
+}
+
+ion-button{
+    --background: #105fe9;
+}
+
+
+.cards{
+    margin-top: 115px;
+    box-shadow: none;
+    background: rgba(30, 59, 102, 0.5);
+    border-radius: 5px;
+}
+.newaccount{
+    text-align: center;
+    color: darken($color: #360404, $amount: 0);
+    font-size: 136%;
+    font-weight: bold;
+}
+
+
+
+.registerbackground{
+    --background: url('https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixlib=rb-1.2.1&w=1000&q=80') 0 0/100% 100% no-repeat;
+}
+.scroll-content{
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.register_button{
+    margin-left: -1vw;
+    width: 82vw;
+    color: white !important;
+}
+body {
+    font-family: 'Open Sans' !important;
+}
